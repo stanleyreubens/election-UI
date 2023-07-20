@@ -1,0 +1,24 @@
+.Party-links {
+  color: red;
+  display: grid;
+  column-gap: 50px;
+  row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  list-style: none;
+}
+
+.Party-link {
+    padding: 1rem;
+    border: 3px solid #bb1919;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.Party-link:hover {
+  scale: 1.1;
+}
+
+a{
+  color: black;
+}
